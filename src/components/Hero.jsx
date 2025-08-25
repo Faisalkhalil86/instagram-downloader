@@ -14,9 +14,9 @@ const HeroSection = () => {
 
   return (
     <section
-      className="flex items-center max-w-[1920px] mx-auto  py-16 justify-center bg-gradient-to-r from-[#DB00FF] via-[#7D55FF] to-[#1FA7FE]"
+      className="flex items-center  py-16 justify-center bg-gradient-to-r from-[#DB00FF] via-[#7D55FF] to-[#1FA7FE]"
     >
-      <div className="w-full max-w-3xl text-center px-4">
+      <div className="w-full max-w-3xl text-center px-4 ">
         {/* Tabs */}
         <div className="flex flex-wrap justify-center mb-10">
           {tabs.map((tab, idx) => (
